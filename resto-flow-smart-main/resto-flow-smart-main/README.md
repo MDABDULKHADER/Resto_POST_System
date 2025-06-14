@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🍽️ Restaurant POS System
 
-## Project info
+This project is a simple and functional Restaurant POS (Point of Sale) system built using Node.js, TypeScript, and MySQL. Follow the steps below to set it up and run it on your local machine.
 
-**URL**: https://lovable.dev/projects/1305475a-37f5-4590-8c46-44fb1fd58d21
+---
 
-## How can I edit this code?
+## 📌 Prerequisites
 
-There are several ways of editing your application.
+Before starting, make sure you have the following installed:
 
-**Use Lovable**
+- [Node.js](https://nodejs.org/)
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+- [TypeScript](https://www.typescriptlang.org/)
+- A terminal or command prompt
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1305475a-37f5-4590-8c46-44fb1fd58d21) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Setup Instructions
 
-**Use your preferred IDE**
+### ✅ Step 1: Create the MySQL Database
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Open **MySQL Workbench**.
+2. Run the SQL script provided in the project:
+   - File Name: `restaurant_pos_system.sql`
+3. This will create the necessary database and tables for the system.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+# Step 2: Install Required Packages
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install TypeScript globally (if not already installed)
+npm install -g typescript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory and install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
+ ----
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+ # Step 3: Run the Server
+
+# Run the backend server using Node.js
+node src/server/server.js
+
+----
+
+# Step 4: Run the Development Environment
+
+# Start the frontend development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+---
+# Step 5: Add Screenshots
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Create a folder named `screenshots` in your project directory.
+2. Add screenshots like `login.png`, `dashboard.png`, etc.
+3. Reference them in this README file using the following markdown:
 
-**Use GitHub Codespaces**
+### Login Page
+![Login](screenshots/login.png)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-## What technologies are used for this project?
+### Order Interface
+![Order Interface](screenshots/order.png)
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1305475a-37f5-4590-8c46-44fb1fd58d21) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
