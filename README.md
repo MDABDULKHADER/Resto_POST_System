@@ -52,5 +52,13 @@ npm run dev
 # Step 5: Your Project is Runing on the Localhost 
 Thank you 
 
+### Login Page
+![Login](screenshot/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Order Interface
+![Order Interface](screenshots/order.png)
 
 
