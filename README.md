@@ -49,7 +49,7 @@ node src/server/server.js
 npm run dev
 
 ---
-# Step 5: Your Project is Runing of the Localhost 
+# Step 5: Your Project is Runing on the Localhost 
 Thank you 
 
 
