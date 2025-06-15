@@ -53,12 +53,21 @@ npm run dev
 Thank you 
 
 ### Login Page
-![Login](screenshot/login.png)
+![Login](Screenshort/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshort/Dashborad.png)
 
 ### Order Interface
-![Order Interface](screenshots/order.png)
+![Order Interface](Screenshort/takeorders.png)
+
+### Manu Management is Feature is Only for the Admin
+![Menu Inferface](Screenshort/manu_management.png)
+
+### Customer Page
+![Customer Page](Screenshort/customer.png)
+
+### OrderHistory 
+![History](Screenshort/orderhistory.png)
 
 
