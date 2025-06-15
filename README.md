@@ -49,20 +49,8 @@ node src/server/server.js
 npm run dev
 
 ---
-# Step 5: Add Screenshots
-
-1. Create a folder named `screenshots` in your project directory.
-2. Add screenshots like `login.png`, `dashboard.png`, etc.
-3. Reference them in this README file using the following markdown:
-
-### Login Page
-![Login](screenshots/login.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Order Interface
-![Order Interface](screenshots/order.png)
+# Step 5: Your Project is Runing of the Localhost 
+Thank you 
 
 
 
